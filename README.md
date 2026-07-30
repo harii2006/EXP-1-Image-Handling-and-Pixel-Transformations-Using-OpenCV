@@ -28,6 +28,9 @@ Step 5:
 Split the image (boy.jpg) into B, G, R components and display the channels
 
 # PROGRAM :
+## EXP.NO:1 Image Handling and Pixel Transformations Using OpenCV
+## SHRIHARI M
+## 212225230265
 Load an image from your local directory and display it.
 ```
 import cv2

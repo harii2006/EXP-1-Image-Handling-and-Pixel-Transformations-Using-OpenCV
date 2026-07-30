@@ -1,17 +1,17 @@
 # EXP-1-Image-Handling-and-Pixel-Transformations-Using-OpenCV
-AIM :
+# AIM :
 Write a Python program using OpenCV that performs the following tasks:
 
 Read and Display an Image.
 Adjust the brightness of an image.
 Modify the image contrast.
 Generate a third image using bitwise operations.
-SOFTWARE REQUIRED :
+# SOFTWARE REQUIRED :
 ```
 --> Anaconda - Python 3.7
 --> Jupyter Notebook (for interactive development and execution)
 ```
-ALGORITHM :
+# ALGORITHM :
 Step 1:
 Load an image from your local directory and display it.
 
@@ -27,7 +27,7 @@ Modify the image contrast by creating two higher contrast images using scaling f
 Step 5:
 Split the image (boy.jpg) into B, G, R components and display the channels
 
-PROGRAM :
+# PROGRAM :
 Load an image from your local directory and display it.
 ```
 import cv2
@@ -240,7 +240,7 @@ plt.title("Flipped Vertically")
 plt.axis("on")
 
 ```
-### OUTPUT:
+# OUTPUT:
 
 <img width="496" height="336" alt="image" src="https://github.com/user-attachments/assets/58d7f4ea-be66-4ab5-a394-cd2462cf993a" />
 
@@ -272,5 +272,5 @@ plt.axis("on")
 
 <img width="486" height="337" alt="image" src="https://github.com/user-attachments/assets/4b668226-47c0-4f0b-ad5c-153cb2b41ec2" />
 
-RESULT :
+# RESULT :
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
